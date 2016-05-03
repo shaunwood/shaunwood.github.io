@@ -1,8 +1,7 @@
-style.css
 body {
-    background-color: black;
+    background-color: rgb(128,255,155);
 }
 
 h1, p {
-    color: grey;
+    color: rgb(71,45,19);
 }
