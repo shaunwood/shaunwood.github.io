@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(205,255,255);
+	color: rgb(69,69,69);
+	font-family: Helvetica;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	list-style-type: none;
+}
