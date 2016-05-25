@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+*{
+	margin:20px;
+	padding:20px;
+}
+
+body {
+	background: url('../assets/home1_0000_Layer Comp 3.jpg') no-repeat top center scroll;
+	background-color: rgb(205,255,255);
+	color: rgb(69,69,69);
+	font-family: Helvetica;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	list-style-type: none;
+}
+
+header{
+	padding:0 150px;
+}
+
+nav{
+}
+
+main{
+	color:#3C3C3C;
+	padding:300px 0;
+}
+
+section{
+	padding:100px 0;
+}
+
+footer{
+	color:#3C3C3C;
+	padding:20px 0;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	font-size:120px;
+	text-align:top, center;
+	color:#3C3C3C;
+	margin:50px 0 0;
+}
+
+h2{
+	font-size:5em;
+	font-family: 'EB Garamond', serif;
+}
+
+p{
+	font-size:2em;
+	font-family: 'EB Garamond', serif;
+}
+
+h3{
+	font-size:3em;
+	font-family: 'Lobster', cursive;
+}
+
+
+.Plant{
+ 	width:60em;
+ 	margin:10em auto;
+ 	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
