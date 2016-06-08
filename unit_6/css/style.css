@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+*{
+	margin:10px;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+body {
+	background: url('../assets/home1_0000_Layer Comp 3.jpg') no-repeat top center scroll;
+	background-color:rgb(133,189,255);
+	font-family: Helvetica;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	list-style-type: none;
+	line-height: 1.5;
+	position: relative;
+}
+
+header{
+ 	color: #fff; 
+    padding: 20px;
+}
+
+nav a:link{
+	font-family: Helvetica;
+	color: rgb(94,52,33);
+	margin: 10px;
+	padding: 10px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav a:hover{
+	color: #000;
+}
+
+nav a:active{
+	color: #000;
+}
+
+section{
+	padding:50px 0;
+}
+
+article {
+    background-color:;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	font-size: 145px;
+	text-align:top, center;
+	line-height: 1.25;
+	color: rgb(94,52,33); 
+	margin: 35px;
+	padding: 35px;
+}
+
+h2{
+	background-color: #fff;
+	font-size: 70px;
+	font-family: 'EB Garamond', serif;
+	color: rgb(94,52,33);
+	margin: 35px;
+	padding: cover;
+}
+
+p{
+	font-size: 2em;
+	font-family: 'EB Garamond', serif;
+	color: #3C3C3C;
+}
+
+aside {
+	text-align: center;
+	color: #3C3C3C;
+	width: 50px;
+	font-size: 1em;
+}
+
+ul {
+	font-size: 20px;	
+}
+
+footer {
+	clear: both;
+	background-size: cover;
+	background-color: rgb(94,52,33);
+	font-size: 18px;
+	color: white;
+	padding: 60px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.wrapper {
+	width: 1080px;
+	background-color:;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#two_column {
+    background-color: rgb(29,29,29);
+    border: 1px black solid;
+    padding: 90px;
+}
+
+#left {
+    background-color: #fff;
+    border: 1px black solid;
+    padding: 90px;
+    float: left;
+    width: 62%;
+}
+
+#right {
+    background-color: #fff;
+    border: 1px black solid;
+    padding: 90px;
+    float: right;   
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
