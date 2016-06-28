@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+	background: url('../img/home1_0000_Layer Comp 3.jpg') no-repeat top center scroll;
+	background-color:rgb(133,189,255);
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	list-style-type: none;
+	line-height: 1.5;
+	position: relative;
+}
+
+header {
+ 	color: #fff;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 1.25;
+	color: rgb(94,52,33); 
+}
+
+h2 {
+	background-color: #eeeeee;
+	margin: 5px;
+	padding: 5px;
+	width: 95%;
+	font-size: 50px;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	color: rgb(94,52,33);
+}
+
+nav a:link {
+	font-family: Helvetica;
+	color: rgb(94,52,33);
+	margin: 22.5px;
+	padding: 22.5px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a:active {
+	color: #000;
+}
+
+section {
+	margin: 2em;
+	padding: 2em;
+	font-size: 1.5em;
+	text-align: center;
+	float: center;
+    color: rgb(94,52,33);
+	background-color: #eeeeee;
+}
+
+article {
+	padding: 1em;
+}
+
+aside {
+	padding: 1em;
+}
+
+ul {
+	padding: 1em;
+}
+
+footer {
+	clear: both;
+	background-color: #eeeeee;
+	padding: 1em;
+}
+
+img {
+	width: 100%;
+}
+
+.main {
+	width:80%;
+	padding: 20%;
+	margin: 20%;
+	float:left;
+}
+
+@media screen and (max-width:1645px){
+	.season{
+		width:48%;
+		height: 651px;
+	}
+}
+
+@media screen and (max-width:1220px){
+	header{
+		padding:0 10%;
+	}
+
+	.season{
+		height: 560px;
+	}
+}
+
+@media screen and (max-width:850px){
+	.season{
+		width:100%;
+		float:none;
+		height: auto;
+	}
+}
+
+@media screen and (max-width:870px){
+		display: no
+	nav{ne;
+	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	h1{
+		margin:40px 0 0;
+	}
+
+	header{
+		padding:0 2%;
+	}
+
+	label{
+		display: block;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+}
